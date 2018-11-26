@@ -2,6 +2,7 @@
 # install curl & git
 sudo apt install curl
 sudo apt install git
+sudo apt install build-essential
 
 # install go
 sudo snap install go --classic
