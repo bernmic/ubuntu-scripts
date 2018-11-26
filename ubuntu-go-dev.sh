@@ -26,3 +26,4 @@ sudo apt-get install code # or code-insiders
 # give some hints
 echo "Start Visual Studio Code with >>code<<"
 echo "Start mariadb with >>mysql -u contact -p<<. Password is contact.
+echo "Install Go extension in Visual Studio Code"
