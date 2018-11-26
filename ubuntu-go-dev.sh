@@ -4,6 +4,8 @@ sudo apt install curl
 
 # install go
 sudo snap install go --classic
+mkdir -p $HOME/go
+echo "export GOPATH=$HOME/go" >>$HOME/.profile
 
 # install mariadb
 sudo apt install mariadb-server mariadb-client
@@ -21,3 +23,6 @@ sudo apt-get install apt-transport-https
 sudo apt-get update
 sudo apt-get install code # or code-insiders
 
+# give some hints
+echo "Start Visual Studio Code with >>code<<"
+echo "Start mariadb with >>mysql -u contact -p<<. Password is contact.
