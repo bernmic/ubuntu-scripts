@@ -1,6 +1,7 @@
 #!/bin/sh
-# install curl
+# install curl & git
 sudo apt install curl
+sudo apt install git
 
 # install go
 sudo snap install go --classic
