@@ -4,7 +4,7 @@ sudo apt install curl
 
 # install go
 sudo snap install go --classic
-mkdir -p $HOME/go
+mkdir -p $HOME/go/src/contact
 echo "export GOPATH=$HOME/go" >>$HOME/.profile
 
 # install mariadb
